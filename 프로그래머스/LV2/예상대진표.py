@@ -6,3 +6,8 @@ def solution(n,a,b):
         a = a%2 + a//2
         b = b%2 + b//2
         answer += 1
+
+""" 다른 풀이
+def solution(n,a,b):
+    return ((a-1)^(b-1)).bit_length()
+    """
